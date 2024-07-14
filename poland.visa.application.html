@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Poland Visa Application Information</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+    }
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+    th {
+        background-color: #f2f2f2;
+        text-align: left;
+    }
+    tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+    tr:hover {
+        background-color: #f1f1f1;
+    }
+    .copy-button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+    }
+    .copy-button:hover {
+        background-color: #45a049;
+    }
+</style>
+</head>
+<body>
+
+<h2>Visa Application Information</h2>
+<p id="visa-info">
+How to book an appointment?<br>
+In order to apply for a visa, please book your appointment via the <a href="https://e-konsulat.gov.pl/">e-konsulat</a> system.
+You can book the appointment not later than 15 days and maximum 6 months before the date of your intended travel.
+
+<h3>What documents do I need to submit?</h3>
+<table>
+    <tr>
+        <th>#</th>
+        <th>Document</th>
+        <th>Details</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Visa application form</td>
+        <td>A visa application form filled via the <a href="https://e-konsulat.gov.pl/">e-Consulate</a> system, printed and signed.</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Photo</td>
+        <td>
+            A 3.5 x 4.5 cm colour photo. The photo must be:
+            <ul>
+                <li>Sharp, taken against white background and printed on quality paper</li>
+                <li>Newer than 6 months</li>
+                <li>Taken en face, clearly showing the eyes and face from both sides from the top of the head to the top of the shoulders with the face covering 70-80% of the photo. The photo must be taken without any headwear.</li>
+            </ul>
+            Detailed guidelines for photos can be found <a href="https://example.com">here</a>.
+        </td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Passport</td>
+        <td>Issued within last ten years, valid for at least three months from the expected return date, with at least two blank pages for visas. If you have another valid passport, you should attach it to the visa application form.</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Copy of passport page</td>
+        <td>A copy of the passport page with personal data and a photo.</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Healthcare insurance</td>
+        <td>Valid across all countries of the Schengen area for the amount not lower than EUR 30,000. If you apply for a multiple-entry visa, it should cover the date of the first entry - list of accredited insurance companies.</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>Copy of ID document</td>
+        <td>To confirm residence within the consular district of your application.</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>Proof of subsistence</td>
+        <td>
+            Proof that you have enough means of subsistence in the form decided by the mission:
+            <ul>
+                <li>A valid bank account statement issued by your bank for the last 3 months</li>
+                <li>A valid credit card with a certificate of means available</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>Proof of accommodation</td>
+        <td>For example, an official invitation or a hotel booking or reservation.</td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>Flight ticket reservation</td>
+        <td>A copy of the flight ticket reservation containing the flight details and booking number.</td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>Purpose of stay</td>
+        <td>Documents confirming the purpose and the conditions of your planned stay in Poland.</td>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td>Letter from employer/sponsor</td>
+        <td>Original letter from the employer/sponsor confirming the employment status, position held, date of employment and the length of the contract, information on the possibility of extending the contract, as well as the salary. The letter must be attested by the local Chamber of Commerce.</td>
+    </tr>
+    <tr>
+        <td>For minors</td>
+        <td>
+            <ul>
+                <li>Written consent of the child’s/minor’s parent(s) to apply for a visa, confirmed by a notary.</li>
+                <li>Originals and copies of parents' passports.</li>
+                <li>An original and a copy of a birth certificate.</li>
+            </ul>
+            If the child is entered in the parent's or legal guardian’s passport, please submit a separate visa application. The visa will be pasted into the parent's or the legal guardian's passport.
+        </td>
+    </tr>
+</table>
+
+<button class="copy-button" onclick="copyToClipboard()">Copy Information</button>
+
+<script>
+    function copyToClipboard() {
+        const text = document.getElementById('visa-info').innerText;
+        navigator.clipboard.writeText(text).then(() => {
+            alert('Information copied to clipboard!');
+        }, () => {
+            alert('Failed to copy information.');
+        });
+    }
+</script>
+
+</body>
+</html>
+
+
+
+
+
